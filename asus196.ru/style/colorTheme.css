@@ -1,0 +1,229 @@
+
+/* Asus */
+.themeAsus .title_slicer > h1 > span{color: #1C6AAE;}
+.themeAsus .orderSubmit{background: linear-gradient(91.26deg, #1C6AAE 0.62%, #52A7F0 99.49%);}
+.themeAsus .searchModel .searchModelItems .searchModelItem:hover, .themeAsus .searchModelList .searchModelItemsList .searchModelItem:hover{
+  color: #1E1E1E;
+  font-weight: bold;
+  background: linear-gradient(91.26deg, #1C6AAE 0.62%, #52A7F0 99.49%);
+}
+.themeAsus .img_slicer{
+  background: url('../img/Asus/imageSlicerAsus.png') no-repeat;
+  background-size: contain;
+  background-position: right;
+  width: 500px;
+  height: 481px;
+}
+@media screen and (max-width: 1170px){
+  .themeAsus .img_slicer{
+    top: 50px;
+    right: -20px;
+    width: 430px;
+    height: 430px;
+  }
+}
+@media screen and (max-width: 860px){
+  .themeAsus .img_slicer{
+    top: 30px;
+    right: 0px;
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 690px){
+  .themeAsus .img_slicer{
+    background: url(../img/Asus/Asus.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 200px;
+    height: 150px;
+    margin-bottom: -80px;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 376px){
+  .themeAsus .img_slicer{
+    width: 160px;
+    height: 100px;
+  }
+}
+
+
+.themeAsus .menu > ul > li:hover{
+  background: linear-gradient(91.26deg, #1C6AAE 0.62%, #52A7F0 99.49%);;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeAsus .contact > .img_callback:hover{
+  background: url('../img/Asus/borderAsus.png') no-repeat;
+  background-size: contain;
+}
+.themeAsus .contact > .img_callback:hover .callback{
+  background: linear-gradient(91.26deg, #1C6AAE 0.62%, #52A7F0 99.49%);;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeAsus .navBar ul li:hover{
+  background: linear-gradient(91.26deg, #1C6AAE 0.62%, #52A7F0 99.49%);;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeAsus .navBar ul li:hover .orderNavBar{
+  background: url('../img/Asus/imageOrderAsus.svg') no-repeat;
+  background-size: contain;
+}
+.themeAsus .navBar ul li:hover .priceNavBar{
+  background: url('../img/Asus/imagePriceAsus.svg') no-repeat;
+  background-size: contain;
+}
+.themeAsus .navBar ul li:hover .settingNavbar{
+  background: url('../img/Asus/imageSettingsAsus.svg') no-repeat;
+  background-size: contain;
+}
+@media screen and (max-width: 426px){
+  .themeAsus .navBar  ul  li .orderNavBar{
+    background: url('../img/Asus/imageOrderAsus.svg') no-repeat;
+    background-size: contain;
+  }
+  .themeAsus .navBar  ul  li .priceNavBar{
+    background: url('../img/Asus/imagePriceAsus.svg') no-repeat;
+    background-size: contain;
+  }
+  .themeAsus .navBar  ul  li .settingNavbar{
+    background: url('../img/Asus/imageSettingsAsus.svg') no-repeat;
+    background-size: contain;
+  }
+}
+
+
+
+.themeAsus .faq1{
+  background: url('../img/Asus/FrameAsus1.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeAsus .faq2{
+  background: url('../img/Asus/FrameAsus2.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeAsus .faq3{
+  background: url('../img/Asus/FrameAsus3.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeAsus .faq4{
+  background: url('../img/Asus/FrameAsus4.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.themeAsus .faqBox:hover .titleFaqBox{
+  background: linear-gradient(91.26deg, #1C6AAE 0.62%, #52A7F0 99.49%);;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeAsus .faqBox:hover .numberFaqBox{color: #1C6AAE;}
+
+.themeAsus .modelBox:hover .titleModelBox{
+  background: linear-gradient(91.26deg, #1C6AAE 0.62%, #52A7F0 99.49%);;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeAsus .deviceSelected .deviceSelectedTablet:hover .deviceSelectedTablet_img, .themeAsus .deviceSelected .deviceSelectedImagesActive .deviceSelectedTablet_img{
+  background: url('../img/Asus/imageTabletAsus.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeAsus .deviceSelected .deviceSelectedPhone:hover .deviceSelectedPhone_img, .themeAsus .deviceSelected .deviceSelectedImagesActive .deviceSelectedPhone_img{
+  background: url('../img/Asus/imagePhoneAsus.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeAsus .deviceSelected .deviceSelectedLaptop:hover .deviceSelectedLaptop_img, .themeAsus .deviceSelected .deviceSelectedImagesActive .deviceSelectedLaptop_img{
+  background: url('../img/Asus/imageLaptopAsus.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeAsus .deviceSelected > .deviceSelectedImages:hover .titleDevice, .themeAsus .deviceSelected .deviceSelectedImagesActive .titleDevice{
+  background: linear-gradient(91.26deg, #1C6AAE 0.62%, #52A7F0 99.49%);;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeAsus .priceMainContent > section > .priceBox:hover{
+  border: 2px solid #1C6AAE;
+}
+.themeAsus .priceMainContent > section > .priceBox:hover .titlePriceBox{
+  background: linear-gradient(91.26deg, #1C6AAE 0.62%, #52A7F0 99.49%);;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeAsus .priceMainContent > section > .priceBox:hover .price{
+  background: linear-gradient(91.26deg, #1C6AAE 0.62%, #52A7F0 99.49%);;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeAsus .priceMainContent > section > .priceBox:hover .dedlaine{
+  background: linear-gradient(91.26deg, #1C6AAE 0.62%, #52A7F0 99.49%);;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeAsus .infoBox .titleInfoBox > div > span{
+  background: linear-gradient(91.26deg, #1C6AAE 0.62%, #52A7F0 99.49%);;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeAsus .infoBox:nth-child(2) .titleInfoBox > span{
+  background: linear-gradient(91.26deg, #1C6AAE 0.62%, #52A7F0 99.49%);;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeAsus .icon_infoBox1{
+  background: url('../img/Asus/arrowRightBigAsus.png') no-repeat;
+  background-size: cover;
+}
+.themeAsus .icon_infoBox2{
+  background: url('../img/Asus/telephone2Asus.png') no-repeat;
+  background-size: cover;
+}
+
+.themeAsus .quantityOrder > .level1{
+  background: linear-gradient(91.26deg, #1C6AAE 0.62%, #52A7F0 99.49%);;
+  box-shadow: 0px 0px 40px rgba(82, 167, 240, 0.4);
+}
+.themeAsus .quantityOrder > .level1 > .level2 > span{
+  background: linear-gradient(91.26deg, #1C6AAE 0.62%, #52A7F0 99.49%);;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeAsus .homeOrderForm > input[name="homeOrderFormSubmit"]{background: linear-gradient(91.26deg, #1C6AAE 0.62%, #52A7F0 99.49%);;}
+.themeAsus .trackComment  .comment  .img_user{
+  background: url('../img/Asus/userAsus.png') no-repeat;
+  background-size: cover;
+}
+.themeAsus .popup .popup_title{
+  background: linear-gradient(91.26deg, #1C6AAE 0.62%, #52A7F0 99.49%);;
+}
+.themeAsus .popup .popup_form input[type="submit"]{
+  background: linear-gradient(91.26deg, #1C6AAE 0.62%, #52A7F0 99.49%);;
+}
+.themeAsus .popup_success .imgSuccess{
+  background: url('../img/Asus/SuccessAsus.png') no-repeat;
+  background-size: cover;
+}

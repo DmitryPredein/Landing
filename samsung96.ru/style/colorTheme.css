@@ -1,0 +1,228 @@
+
+/* Samsung */
+.themeSamsung .title_slicer > h1 > span{color: #6792FF;}
+.themeSamsung .orderSubmit{background: linear-gradient(119.43deg, #6792FF 0%, #41C3CB 100%);}
+.themeSamsung .searchModel .searchModelItems .searchModelItem:hover, .themeSamsung .searchModelList .searchModelItemsList .searchModelItem:hover{
+  color: #1E1E1E;
+  font-weight: bold;
+  background: linear-gradient(119.43deg, #6792FF 0%, #41C3CB 100%);
+}
+.themeSamsung .img_slicer{
+  background: url('../img/Samsung/imageSlicerSamsung.png') no-repeat;
+  background-size: cover;
+  background-position: left;
+  width: 600px;
+  height: 600px;
+}
+@media screen and (max-width: 1170px){
+  .themeSamsung .img_slicer{
+    top: 20px;
+    right: -60px;
+    width: 580px;
+    height: 580px;
+  }
+}
+@media screen and (max-width: 860px){
+  .themeSamsung .img_slicer{
+    top: -30px;
+    right: -50px;
+    width: 450px;
+    height: 450px;
+  }
+}
+@media screen and (max-width: 690px){
+  .themeSamsung .img_slicer{
+    background: url(../img/Samsung/Samsung.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 256px;
+    height: 256px;
+    margin-bottom: -80px;
+  }
+}
+@media screen and (max-width: 376px){
+  .themeSamsung .img_slicer{
+    width: 200px;
+    height: 200px;
+  }
+}
+
+
+.themeSamsung .menu > ul > li:hover{
+  background: linear-gradient(119.43deg, #6792FF 0%, #41C3CB 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeSamsung .contact > .img_callback:hover{
+  background: url('../img/Samsung/borderSamsung.png') no-repeat;
+  background-size: contain;
+}
+.themeSamsung .contact > .img_callback:hover .callback{
+  background: linear-gradient(119.43deg, #6792FF 0%, #41C3CB 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeSamsung .navBar ul li:hover{
+  background: linear-gradient(119.43deg, #6792FF 0%, #41C3CB 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeSamsung .navBar ul li:hover .orderNavBar{
+  background: url('../img/Samsung/imageOrderSamsung.svg') no-repeat;
+  background-size: contain;
+}
+.themeSamsung .navBar ul li:hover .priceNavBar{
+  background: url('../img/Samsung/imagePriceSamsung.svg') no-repeat;
+  background-size: contain;
+}
+.themeSamsung .navBar ul li:hover .settingNavbar{
+  background: url('../img/Samsung/imageSettingsSamsung.svg') no-repeat;
+  background-size: contain;
+}
+@media screen and (max-width: 426px){
+  .themeSamsung .navBar  ul  li .orderNavBar{
+    background: url('../img/Samsung/imageOrderSamsung.svg') no-repeat;
+    background-size: contain;
+  }
+  .themeSamsung .navBar  ul  li .priceNavBar{
+    background: url('../img/Samsung/imagePriceSamsung.svg') no-repeat;
+    background-size: contain;
+  }
+  .themeSamsung .navBar  ul  li .settingNavbar{
+    background: url('../img/Samsung/imageSettingsSamsung.svg') no-repeat;
+    background-size: contain;
+  }
+}
+
+
+
+.themeSamsung .faq1{
+  background: url('../img/Samsung/FrameSamsung1.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeSamsung .faq2{
+  background: url('../img/Samsung/FrameSamsung2.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeSamsung .faq3{
+  background: url('../img/Samsung/FrameSamsung3.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeSamsung .faq4{
+  background: url('../img/Samsung/FrameSamsung4.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.themeSamsung .faqBox:hover .titleFaqBox{
+  background: linear-gradient(119.43deg, #6792FF 0%, #41C3CB 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeSamsung .faqBox:hover .numberFaqBox{color: #6792FF;}
+
+.themeSamsung .modelBox:hover .titleModelBox{
+  background: linear-gradient(119.43deg, #6792FF 0%, #41C3CB 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeSamsung .deviceSelected .deviceSelectedTablet:hover .deviceSelectedTablet_img, .themeSamsung .deviceSelected .deviceSelectedImagesActive .deviceSelectedTablet_img{
+  background: url('../img/Samsung/imageTabletSamsung.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeSamsung .deviceSelected .deviceSelectedPhone:hover .deviceSelectedPhone_img, .themeSamsung .deviceSelected .deviceSelectedImagesActive .deviceSelectedPhone_img{
+  background: url('../img/Samsung/imagePhoneSamsung.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeSamsung .deviceSelected .deviceSelectedLaptop:hover .deviceSelectedLaptop_img, .themeSamsung .deviceSelected .deviceSelectedImagesActive .deviceSelectedLaptop_img{
+  background: url('../img/Samsung/imageLaptopSamsung.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeSamsung .deviceSelected > .deviceSelectedImages:hover .titleDevice, .themeSamsung .deviceSelected .deviceSelectedImagesActive .titleDevice{
+  background: linear-gradient(119.43deg, #6792FF 0%, #41C3CB 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeSamsung .priceMainContent > section > .priceBox:hover{
+  border: 2px solid #6792FF;
+}
+.themeSamsung .priceMainContent > section > .priceBox:hover .titlePriceBox{
+  background: linear-gradient(119.43deg, #6792FF 0%, #41C3CB 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeSamsung .priceMainContent > section > .priceBox:hover .price{
+  background: linear-gradient(119.43deg, #6792FF 0%, #41C3CB 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeSamsung .priceMainContent > section > .priceBox:hover .dedlaine{
+  background: linear-gradient(119.43deg, #6792FF 0%, #41C3CB 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeSamsung .infoBox .titleInfoBox > div > span{
+  background: linear-gradient(119.43deg, #6792FF 0%, #41C3CB 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeSamsung .infoBox:nth-child(2) .titleInfoBox > span{
+  background: linear-gradient(119.43deg, #6792FF 0%, #41C3CB 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeSamsung .icon_infoBox1{
+  background: url('../img/Samsung/arrowRightBigSamsung.png') no-repeat;
+  background-size: cover;
+}
+.themeSamsung .icon_infoBox2{
+  background: url('../img/Samsung/telephone2Iphon.png') no-repeat;
+  background-size: cover;
+}
+
+.themeSamsung .quantityOrder > .level1{
+  background: linear-gradient(119.43deg, #6792FF 0%, #41C3CB 100%);
+  box-shadow: 0px 0px 40px rgba(79, 178, 222, 0.4);
+}
+.themeSamsung .quantityOrder > .level1 > .level2 > span{
+  background: linear-gradient(119.43deg, #6792FF 0%, #41C3CB 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeSamsung .homeOrderForm > input[name="homeOrderFormSubmit"]{background: linear-gradient(119.43deg, #6792FF 0%, #41C3CB 100%);}
+.themeSamsung .trackComment  .comment  .img_user{
+  background: url('../img/Samsung/userSamsung.png') no-repeat;
+  background-size: cover;
+}
+.themeSamsung .popup .popup_title{
+  background: linear-gradient(119.43deg, #6792FF 0%, #41C3CB 100%);
+}
+.themeSamsung .popup .popup_form input[type="submit"]{
+  background: linear-gradient(119.43deg, #6792FF 0%, #41C3CB 100%);
+}
+.themeSamsung .popup_success .imgSuccess{
+  background: url('../img/Samsung/SuccessSamsung.png') no-repeat;
+  background-size: cover;
+}

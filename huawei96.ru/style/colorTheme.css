@@ -1,0 +1,231 @@
+
+/* Huawei */
+.themeHuawei .title_slicer > h1 > span{color: #D80312;}
+.themeHuawei .orderSubmit{background: linear-gradient(119.43deg, #ED1928 0%, #E60254 100%);}
+.themeHuawei .searchModel .searchModelItems .searchModelItem:hover, .themeHuawei .searchModelList .searchModelItemsList .searchModelItem:hover{
+  color: #1E1E1E;
+  font-weight: bold;
+  background: linear-gradient(119.43deg, #ED1928 0%, #E60254 100%);
+}
+.themeHuawei .img_slicer{
+  background: url('../img/Huawei/imageSlicerHuawei.png') no-repeat;
+  background-size: contain;
+  background-position: left;
+  width: 500px;
+  height: 500px;
+  margin-left: 50px;
+}
+@media screen and (max-width: 1170px){
+  .themeHuawei .img_slicer{
+    top: 20px;
+    right: -60px;
+    width: 480px;
+    height: 480px;
+  }
+}
+@media screen and (max-width: 860px){
+  .themeHuawei .img_slicer{
+    top: 0px;
+    right: -50px;
+    width: 350px;
+    height: 350px;
+  }
+}
+@media screen and (max-width: 690px){
+  .themeHuawei .img_slicer{
+    background: url(../img/Huawei/Huawei.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin-bottom: -50px;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 376px){
+  .themeHuawei .img_slicer{
+    width: 160px;
+    height: 160px;
+  }
+}
+
+
+.themeHuawei .menu > ul > li:hover{
+  background: linear-gradient(119.43deg, #ED1928 0%, #E60254 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeHuawei .contact > .img_callback:hover{
+  background: url('../img/Huawei/borderHuawei.png') no-repeat;
+  background-size: contain;
+}
+.themeHuawei .contact > .img_callback:hover .callback{
+  background: linear-gradient(119.43deg, #ED1928 0%, #E60254 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeHuawei .navBar ul li:hover{
+  background: linear-gradient(119.43deg, #ED1928 0%, #E60254 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeHuawei .navBar ul li:hover .orderNavBar{
+  background: url('../img/Huawei/imageOrderHuawei.svg') no-repeat;
+  background-size: contain;
+}
+.themeHuawei .navBar ul li:hover .priceNavBar{
+  background: url('../img/Huawei/imagePriceHuawei.svg') no-repeat;
+  background-size: contain;
+}
+.themeHuawei .navBar ul li:hover .settingNavbar{
+  background: url('../img/Huawei/imageSettingsHuawei.svg') no-repeat;
+  background-size: contain;
+}
+@media screen and (max-width: 426px){
+  .themeHuawei .navBar  ul  li .orderNavBar{
+    background: url('../img/Huawei/imageOrderHuawei.svg') no-repeat;
+    background-size: contain;
+  }
+  .themeHuawei .navBar  ul  li .priceNavBar{
+    background: url('../img/Huawei/imagePriceHuawei.svg') no-repeat;
+    background-size: contain;
+  }
+  .themeHuawei .navBar  ul  li .settingNavbar{
+    background: url('../img/Huawei/imageSettingsHuawei.svg') no-repeat;
+    background-size: contain;
+  }
+}
+
+
+
+.themeHuawei .faq1{
+  background: url('../img/Huawei/FrameHuawei1.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeHuawei .faq2{
+  background: url('../img/Huawei/FrameHuawei2.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeHuawei .faq3{
+  background: url('../img/Huawei/FrameHuawei3.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeHuawei .faq4{
+  background: url('../img/Huawei/FrameHuawei4.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.themeHuawei .faqBox:hover .titleFaqBox{
+  background: linear-gradient(119.43deg, #ED1928 0%, #E60254 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeHuawei .faqBox:hover .numberFaqBox{color: #D80312;}
+
+.themeHuawei .modelBox:hover .titleModelBox{
+  background: linear-gradient(119.43deg, #ED1928 0%, #E60254 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeHuawei .deviceSelected .deviceSelectedTablet:hover .deviceSelectedTablet_img, .themeHuawei .deviceSelected .deviceSelectedImagesActive .deviceSelectedTablet_img{
+  background: url('../img/Huawei/imageTabletHuawei.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeHuawei .deviceSelected .deviceSelectedPhone:hover .deviceSelectedPhone_img, .themeHuawei .deviceSelected .deviceSelectedImagesActive .deviceSelectedPhone_img{
+  background: url('../img/Huawei/imagePhoneHuawei.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeHuawei .deviceSelected .deviceSelectedLaptop:hover .deviceSelectedLaptop_img, .themeHuawei .deviceSelected .deviceSelectedImagesActive .deviceSelectedLaptop_img{
+  background: url('../img/Huawei/imageLaptopHuawei.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeHuawei .deviceSelected > .deviceSelectedImages:hover .titleDevice, .themeHuawei .deviceSelected .deviceSelectedImagesActive .titleDevice{
+  background: linear-gradient(119.43deg, #ED1928 0%, #E60254 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeHuawei .priceMainContent > section > .priceBox:hover{
+  border: 2px solid #D80312;
+}
+.themeHuawei .priceMainContent > section > .priceBox:hover .titlePriceBox{
+  background: linear-gradient(119.43deg, #ED1928 0%, #E60254 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeHuawei .priceMainContent > section > .priceBox:hover .price{
+  background: linear-gradient(119.43deg, #ED1928 0%, #E60254 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeHuawei .priceMainContent > section > .priceBox:hover .dedlaine{
+  background: linear-gradient(119.43deg, #ED1928 0%, #E60254 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeHuawei .infoBox .titleInfoBox > div > span{
+  background: linear-gradient(119.43deg, #ED1928 0%, #E60254 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeHuawei .infoBox:nth-child(2) .titleInfoBox > span{
+  background: linear-gradient(119.43deg, #ED1928 0%, #E60254 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeHuawei .icon_infoBox1{
+  background: url('../img/Huawei/arrowRightBigHuawei.png') no-repeat;
+  background-size: cover;
+}
+.themeHuawei .icon_infoBox2{
+  background: url('../img/Huawei/telephone2Huawei.png') no-repeat;
+  background-size: cover;
+}
+
+.themeHuawei .quantityOrder > .level1{
+  background: linear-gradient(119.43deg, #ED1928 0%, #E60254 100%);
+  box-shadow: 0px 0px 40px rgba(211, 58, 58, 0.4);
+}
+.themeHuawei .quantityOrder > .level1 > .level2 > span{
+  background: linear-gradient(119.43deg, #ED1928 0%, #E60254 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeHuawei .homeOrderForm > input[name="homeOrderFormSubmit"]{background: linear-gradient(119.43deg, #ED1928 0%, #E60254 100%);}
+.themeHuawei .trackComment  .comment  .img_user{
+  background: url('../img/Huawei/userHuawei.png') no-repeat;
+  background-size: cover;
+}
+.themeHuawei .popup .popup_title{
+  background: linear-gradient(119.43deg, #ED1928 0%, #E60254 100%);
+}
+.themeHuawei .popup .popup_form input[type="submit"]{
+  background: linear-gradient(119.43deg, #ED1928 0%, #E60254 100%);
+}
+.themeHuawei .popup_success .imgSuccess{
+  background: url('../img/Huawei/SuccessHuawei.png') no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,229 @@
+
+/* Honor */
+.themeHonor .title_slicer > h1 > span{color: #2890FF;}
+.themeHonor .orderSubmit{background: linear-gradient(107.23deg, #FF00D0 0%, #2890FF 38.15%, #2890FF 61.26%, #00FFFF 103.17%);}
+.themeHonor .searchModel .searchModelItems .searchModelItem:hover, .themeHonor .searchModelList .searchModelItemsList .searchModelItem:hover{
+  color: #1E1E1E;
+  font-weight: bold;
+  background: linear-gradient(107.23deg, #FF00D0 0%, #2890FF 38.15%, #2890FF 61.26%, #00FFFF 103.17%);
+}
+.themeHonor .img_slicer{
+  background: url('../img/Honor/imageSlicerHonor.png') no-repeat;
+  background-size: contain;
+  background-position: left;
+  width: 500px;
+  height: 500px;
+}
+@media screen and (max-width: 1170px){
+  .themeHonor .img_slicer{
+    top: 20px;
+    right: -20px;
+    width: 480px;
+    height: 480px;
+  }
+}
+@media screen and (max-width: 860px){
+  .themeHonor .img_slicer{
+    top: 30px;
+    right: -10px;
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 690px){
+  .themeHonor .img_slicer{
+    background: url(../img/Honor/Honor.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 200px;
+    height: 150px;
+    margin-bottom: -80px;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 376px){
+  .themeHonor .img_slicer{
+    width: 160px;
+    height: 100px;
+  }
+}
+
+
+.themeHonor .menu > ul > li:hover{
+  background: linear-gradient(107.23deg, #FF00D0 0%, #2890FF 38.15%, #2890FF 61.26%, #00FFFF 103.17%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeHonor .contact > .img_callback:hover{
+  background: url('../img/Honor/borderHonor.png') no-repeat;
+  background-size: contain;
+}
+.themeHonor .contact > .img_callback:hover .callback{
+  background: linear-gradient(107.23deg, #FF00D0 0%, #2890FF 38.15%, #2890FF 61.26%, #00FFFF 103.17%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeHonor .navBar ul li:hover{
+  background: linear-gradient(107.23deg, #FF00D0 0%, #2890FF 38.15%, #2890FF 61.26%, #00FFFF 103.17%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeHonor .navBar ul li:hover .orderNavBar{
+  background: url('../img/Honor/imageOrderHonor.svg') no-repeat;
+  background-size: contain;
+}
+.themeHonor .navBar ul li:hover .priceNavBar{
+  background: url('../img/Honor/imagePriceHonor.svg') no-repeat;
+  background-size: contain;
+}
+.themeHonor .navBar ul li:hover .settingNavbar{
+  background: url('../img/Honor/imageSettingsHonor.svg') no-repeat;
+  background-size: contain;
+}
+@media screen and (max-width: 426px){
+  .themeHonor .navBar  ul  li .orderNavBar{
+    background: url('../img/Honor/imageOrderHonor.svg') no-repeat;
+    background-size: contain;
+  }
+  .themeHonor .navBar  ul  li .priceNavBar{
+    background: url('../img/Honor/imagePriceHonor.svg') no-repeat;
+    background-size: contain;
+  }
+  .themeHonor .navBar  ul  li .settingNavbar{
+    background: url('../img/Honor/imageSettingsHonor.svg') no-repeat;
+    background-size: contain;
+  }
+}
+
+
+
+.themeHonor .faq1{
+  background: url('../img/Honor/FrameHonor1.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeHonor .faq2{
+  background: url('../img/Honor/FrameHonor2.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeHonor .faq3{
+  background: url('../img/Honor/FrameHonor3.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeHonor .faq4{
+  background: url('../img/Honor/FrameHonor4.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.themeHonor .faqBox:hover .titleFaqBox{
+  background: linear-gradient(107.23deg, #FF00D0 0%, #2890FF 38.15%, #2890FF 61.26%, #00FFFF 103.17%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeHonor .faqBox:hover .numberFaqBox{color: #2890FF;}
+
+.themeHonor .modelBox:hover .titleModelBox{
+  background: linear-gradient(107.23deg, #FF00D0 0%, #2890FF 38.15%, #2890FF 61.26%, #00FFFF 103.17%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeHonor .deviceSelected .deviceSelectedTablet:hover .deviceSelectedTablet_img, .themeHonor .deviceSelected .deviceSelectedImagesActive .deviceSelectedTablet_img{
+  background: url('../img/Honor/imageTabletHonor.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeHonor .deviceSelected .deviceSelectedPhone:hover .deviceSelectedPhone_img, .themeHonor .deviceSelected .deviceSelectedImagesActive .deviceSelectedPhone_img{
+  background: url('../img/Honor/imagePhoneHonor.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeHonor .deviceSelected .deviceSelectedLaptop:hover .deviceSelectedLaptop_img, .themeHonor .deviceSelected .deviceSelectedImagesActive .deviceSelectedLaptop_img{
+  background: url('../img/Honor/imageLaptopHonor.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeHonor .deviceSelected > .deviceSelectedImages:hover .titleDevice, .themeHonor .deviceSelected .deviceSelectedImagesActive .titleDevice{
+  background: linear-gradient(107.23deg, #FF00D0 0%, #2890FF 38.15%, #2890FF 61.26%, #00FFFF 103.17%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeHonor .priceMainContent > section > .priceBox:hover{
+  border: 2px solid #2890FF;
+}
+.themeHonor .priceMainContent > section > .priceBox:hover .titlePriceBox{
+  background: linear-gradient(107.23deg, #FF00D0 0%, #2890FF 38.15%, #2890FF 61.26%, #00FFFF 103.17%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeHonor .priceMainContent > section > .priceBox:hover .price{
+  background: linear-gradient(107.23deg, #FF00D0 0%, #2890FF 38.15%, #2890FF 61.26%, #00FFFF 103.17%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeHonor .priceMainContent > section > .priceBox:hover .dedlaine{
+  background: linear-gradient(107.23deg, #FF00D0 0%, #2890FF 38.15%, #2890FF 61.26%, #00FFFF 103.17%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeHonor .infoBox .titleInfoBox > div > span{
+  background: linear-gradient(107.23deg, #FF00D0 0%, #2890FF 38.15%, #2890FF 61.26%, #00FFFF 103.17%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeHonor .infoBox:nth-child(2) .titleInfoBox > span{
+  background: linear-gradient(107.23deg, #FF00D0 0%, #2890FF 38.15%, #2890FF 61.26%, #00FFFF 103.17%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeHonor .icon_infoBox1{
+  background: url('../img/Honor/arrowRightBigHonor.png') no-repeat;
+  background-size: cover;
+}
+.themeHonor .icon_infoBox2{
+  background: url('../img/Honor/telephone2Honor.png') no-repeat;
+  background-size: cover;
+}
+
+.themeHonor .quantityOrder > .level1{
+  background: linear-gradient(107.23deg, #FF00D0 0%, #2890FF 38.15%, #2890FF 61.26%, #00FFFF 103.17%);
+  box-shadow: 0px 0px 40px rgba(21, 177, 234, 0.4);
+}
+.themeHonor .quantityOrder > .level1 > .level2 > span{
+  background: linear-gradient(107.23deg, #FF00D0 0%, #2890FF 38.15%, #2890FF 61.26%, #00FFFF 103.17%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeHonor .homeOrderForm > input[name="homeOrderFormSubmit"]{background: linear-gradient(107.23deg, #FF00D0 0%, #2890FF 38.15%, #2890FF 61.26%, #00FFFF 103.17%);}
+.themeHonor .trackComment  .comment  .img_user{
+  background: url('../img/Honor/userHonor.png') no-repeat;
+  background-size: cover;
+}
+.themeHonor .popup .popup_title{
+  background: linear-gradient(107.23deg, #FF00D0 0%, #2890FF 38.15%, #2890FF 61.26%, #00FFFF 103.17%);
+}
+.themeHonor .popup .popup_form input[type="submit"]{
+  background: linear-gradient(107.23deg, #FF00D0 0%, #2890FF 38.15%, #2890FF 61.26%, #00FFFF 103.17%);
+}
+.themeHonor .popup_success .imgSuccess{
+  background: url('../img/Honor/SuccessHonor.png') no-repeat;
+  background-size: cover;
+}

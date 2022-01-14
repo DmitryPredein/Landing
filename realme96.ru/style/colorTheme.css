@@ -1,0 +1,233 @@
+
+/* Realme */
+.themeRealme .title_slicer > h1 > span{color: #FFD800;}
+.themeRealme .orderSubmit{background: linear-gradient(91.26deg, #FF3D00 0.62%, #FFD800 44.9%);}
+.themeRealme .searchModel .searchModelItems .searchModelItem:hover, .themeRealme .searchModelList .searchModelItemsList .searchModelItem:hover{
+  color: #1E1E1E;
+  font-weight: bold;
+  background: linear-gradient(91.26deg, #FF3D00 0.62%, #FFD800 44.9%);
+}
+.themeRealme .img_slicer{
+  background: url('../img/Realme/imageSlicerRealme.png') no-repeat;
+  background-size: contain;
+  background-position: right;
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: 20px;
+  right: -60px;
+}
+@media screen and (max-width: 1170px){
+  .themeRealme .img_slicer{
+    top: 20px;
+    right: -80px;
+    width: 480px;
+    height: 480px;
+  }
+}
+@media screen and (max-width: 860px){
+  .themeRealme .img_slicer{
+    top: 30px;
+    right: -60px;
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 690px){
+  .themeRealme .img_slicer{
+    position: static;
+    background: url(../img/Realme/Realme.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 200px;
+    height: 150px;
+    margin-bottom: -80px;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 376px){
+  .themeRealme .img_slicer{
+    width: 160px;
+    height: 100px;
+  }
+}
+
+
+.themeRealme .menu > ul > li:hover{
+  background: linear-gradient(91.26deg, #FF3D00 0.62%, #FFD800 44.9%);;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeRealme .contact > .img_callback:hover{
+  background: url('../img/Realme/borderRealme.png') no-repeat;
+  background-size: contain;
+}
+.themeRealme .contact > .img_callback:hover .callback{
+  background: linear-gradient(91.26deg, #FF3D00 0.62%, #FFD800 44.9%);;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeRealme .navBar ul li:hover{
+  background: linear-gradient(91.26deg, #FF3D00 0.62%, #FFD800 44.9%);;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeRealme .navBar ul li:hover .orderNavBar{
+  background: url('../img/Realme/imageOrderRealme.svg') no-repeat;
+  background-size: contain;
+}
+.themeRealme .navBar ul li:hover .priceNavBar{
+  background: url('../img/Realme/imagePriceRealme.svg') no-repeat;
+  background-size: contain;
+}
+.themeRealme .navBar ul li:hover .settingNavbar{
+  background: url('../img/Realme/imageSettingsRealme.svg') no-repeat;
+  background-size: contain;
+}
+@media screen and (max-width: 426px){
+  .themeRealme .navBar  ul  li .orderNavBar{
+    background: url('../img/Realme/imageOrderRealme.svg') no-repeat;
+    background-size: contain;
+  }
+  .themeRealme .navBar  ul  li .priceNavBar{
+    background: url('../img/Realme/imagePriceRealme.svg') no-repeat;
+    background-size: contain;
+  }
+  .themeRealme .navBar  ul  li .settingNavbar{
+    background: url('../img/Realme/imageSettingsRealme.svg') no-repeat;
+    background-size: contain;
+  }
+}
+
+
+
+.themeRealme .faq1{
+  background: url('../img/Realme/FrameRealme1.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeRealme .faq2{
+  background: url('../img/Realme/FrameRealme2.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeRealme .faq3{
+  background: url('../img/Realme/FrameRealme3.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeRealme .faq4{
+  background: url('../img/Realme/FrameRealme4.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.themeRealme .faqBox:hover .titleFaqBox{
+  background: linear-gradient(91.26deg, #FF3D00 0.62%, #FFD800 44.9%);;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeRealme .faqBox:hover .numberFaqBox{color: #FFD800;}
+
+.themeRealme .modelBox:hover .titleModelBox{
+  background: linear-gradient(91.26deg, #FF3D00 0.62%, #FFD800 44.9%);;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeRealme .deviceSelected .deviceSelectedTablet:hover .deviceSelectedTablet_img, .themeRealme .deviceSelected .deviceSelectedImagesActive .deviceSelectedTablet_img{
+  background: url('../img/Realme/imageTabletRealme.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeRealme .deviceSelected .deviceSelectedPhone:hover .deviceSelectedPhone_img, .themeRealme .deviceSelected .deviceSelectedImagesActive .deviceSelectedPhone_img{
+  background: url('../img/Realme/imagePhoneRealme.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeRealme .deviceSelected .deviceSelectedLaptop:hover .deviceSelectedLaptop_img, .themeRealme .deviceSelected .deviceSelectedImagesActive .deviceSelectedLaptop_img{
+  background: url('../img/Realme/imageLaptopRealme.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeRealme .deviceSelected > .deviceSelectedImages:hover .titleDevice, .themeRealme .deviceSelected .deviceSelectedImagesActive .titleDevice{
+  background: linear-gradient(91.26deg, #FF3D00 0.62%, #FFD800 44.9%);;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeRealme .priceMainContent > section > .priceBox:hover{
+  border: 2px solid #FFD800;
+}
+.themeRealme .priceMainContent > section > .priceBox:hover .titlePriceBox{
+  background: linear-gradient(91.26deg, #FF3D00 0.62%, #FFD800 44.9%);;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeRealme .priceMainContent > section > .priceBox:hover .price{
+  background: linear-gradient(91.26deg, #FF3D00 0.62%, #FFD800 44.9%);;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeRealme .priceMainContent > section > .priceBox:hover .dedlaine{
+  background: linear-gradient(91.26deg, #FF3D00 0.62%, #FFD800 44.9%);;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeRealme .infoBox .titleInfoBox > div > span{
+  background: linear-gradient(91.26deg, #FF3D00 0.62%, #FFD800 44.9%);;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeRealme .infoBox:nth-child(2) .titleInfoBox > span{
+  background: linear-gradient(91.26deg, #FF3D00 0.62%, #FFD800 44.9%);;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeRealme .icon_infoBox1{
+  background: url('../img/Realme/arrowRightBigRealme.png') no-repeat;
+  background-size: cover;
+}
+.themeRealme .icon_infoBox2{
+  background: url('../img/Realme/telephone2Realme.png') no-repeat;
+  background-size: cover;
+}
+
+.themeRealme .quantityOrder > .level1{
+  background: linear-gradient(91.26deg, #FF3D00 0.62%, #FFD800 44.9%);;
+  box-shadow: 0px 0px 40px rgba(255, 216, 0, 0.4);
+}
+.themeRealme .quantityOrder > .level1 > .level2 > span{
+  background: linear-gradient(91.26deg, #FF3D00 0.62%, #FFD800 44.9%);;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeRealme .homeOrderForm > input[name="homeOrderFormSubmit"]{background: linear-gradient(91.26deg, #FF3D00 0.62%, #FFD800 44.9%);;}
+.themeRealme .trackComment  .comment  .img_user{
+  background: url('../img/Realme/userRealme.png') no-repeat;
+  background-size: cover;
+}
+.themeRealme .popup .popup_title{
+  background: linear-gradient(91.26deg, #FF3D00 0.62%, #FFD800 44.9%);;
+}
+.themeRealme .popup .popup_form input[type="submit"]{
+  background: linear-gradient(91.26deg, #FF3D00 0.62%, #FFD800 44.9%);;
+}
+.themeRealme .popup_success .imgSuccess{
+  background: url('../img/Realme/SuccessRealme.png') no-repeat;
+  background-size: cover;
+}

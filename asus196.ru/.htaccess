@@ -1,0 +1,38 @@
+RewriteEngine on
+
+ErrorDocument 404  https://asus196.ru/404
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+RewriteRule ^index\.html$ https://asus196.ru/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/$
+RewriteCond %{HTTP_HOST} ^www\.(.*)$
+RewriteRule ^(.*)$ https://%1/$1 [L,R=301]
+
+RewriteCond %{REQUEST_URI} /index
+RewriteCond %{QUERY_STRING} ^\z
+RewriteRule ^(.*)$ https://asus196.ru/? [R=301,L]
+
+RewriteCond %{REQUEST_URI} !\?
+RewriteCond %{REQUEST_URI} !\&
+RewriteCond %{REQUEST_URI} !\=
+RewriteCond %{REQUEST_URI} !\.
+RewriteCond %{REQUEST_URI} \/$
+RewriteCond %{HTTP_HOST} ^www\.(.*)$
+RewriteRule ^(.*)\/$ https://%1/$1 [L,R=301]
+
+RewriteCond %{REQUEST_URI} !\?
+RewriteCond %{REQUEST_URI} !\&
+RewriteCond %{REQUEST_URI} !\=
+RewriteCond %{REQUEST_URI} !\.
+RewriteCond %{REQUEST_URI} !\/$
+RewriteCond %{HTTP_HOST} ^www\.(.*)$
+RewriteRule ^(.*)$ https://%1/$1 [L,R=301]
+
+RewriteCond %{REQUEST_URI} !\?
+RewriteCond %{REQUEST_URI} !\&
+RewriteCond %{REQUEST_URI} !\=
+RewriteCond %{REQUEST_URI} !\.
+RewriteCond %{REQUEST_URI} \/$
+RewriteCond %{HTTP_HOST} ^([^www].*)$
+RewriteRule ^(.*)\/$ https://%1/$1 [L,R=301]

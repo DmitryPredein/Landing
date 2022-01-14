@@ -1,0 +1,229 @@
+
+/* Xiaomi */
+.themeXiaomi .title_slicer > h1 > span{color: #FD5E1A;}
+.themeXiaomi .orderSubmit{background: linear-gradient(119.43deg, #FF6709 0%, #FD5E1A 100%);}
+.themeXiaomi .searchModel .searchModelItems .searchModelItem:hover, .themeXiaomi .searchModelList .searchModelItemsList .searchModelItem:hover{
+  color: #1E1E1E;
+  font-weight: bold;
+  background: linear-gradient(119.43deg, #FF6709 0%, #FD5E1A 100%);
+}
+.themeXiaomi .img_slicer{
+  background: url('../img/Xiaomi/imageSlicerXiaomi.png') no-repeat;
+  background-size: contain;
+  background-position: left;
+  width: 500px;
+  height: 500px;
+}
+@media screen and (max-width: 1170px){
+  .themeXiaomi .img_slicer{
+    top: 20px;
+    right: -60px;
+    width: 480px;
+    height: 480px;
+  }
+}
+@media screen and (max-width: 860px){
+  .themeXiaomi .img_slicer{
+    top: 0px;
+    right: -50px;
+    width: 350px;
+    height: 350px;
+  }
+}
+@media screen and (max-width: 690px){
+  .themeXiaomi .img_slicer{
+    background: url(../img/Xiaomi/Xiaomi.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin-bottom: -80px;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 376px){
+  .themeXiaomi .img_slicer{
+    width: 160px;
+    height: 160px;
+  }
+}
+
+
+.themeXiaomi .menu > ul > li:hover{
+  background: linear-gradient(119.43deg, #FF6709 0%, #FD5E1A 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeXiaomi .contact > .img_callback:hover{
+  background: url('../img/Xiaomi/borderXiaomi.png') no-repeat;
+  background-size: contain;
+}
+.themeXiaomi .contact > .img_callback:hover .callback{
+  background: linear-gradient(119.43deg, #FF6709 0%, #FD5E1A 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeXiaomi .navBar ul li:hover{
+  background: linear-gradient(119.43deg, #FF6709 0%, #FD5E1A 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeXiaomi .navBar ul li:hover .orderNavBar{
+  background: url('../img/Xiaomi/imageOrderXiaomi.svg') no-repeat;
+  background-size: contain;
+}
+.themeXiaomi .navBar ul li:hover .priceNavBar{
+  background: url('../img/Xiaomi/imagePriceXiaomi.svg') no-repeat;
+  background-size: contain;
+}
+.themeXiaomi .navBar ul li:hover .settingNavbar{
+  background: url('../img/Xiaomi/imageSettingsXiaomi.svg') no-repeat;
+  background-size: contain;
+}
+@media screen and (max-width: 426px){
+  .themeXiaomi .navBar  ul  li .orderNavBar{
+    background: url('../img/Xiaomi/imageOrderXiaomi.svg') no-repeat;
+    background-size: contain;
+  }
+  .themeXiaomi .navBar  ul  li .priceNavBar{
+    background: url('../img/Xiaomi/imagePriceXiaomi.svg') no-repeat;
+    background-size: contain;
+  }
+  .themeXiaomi .navBar  ul  li .settingNavbar{
+    background: url('../img/Xiaomi/imageSettingsXiaomi.svg') no-repeat;
+    background-size: contain;
+  }
+}
+
+
+
+.themeXiaomi .faq1{
+  background: url('../img/Xiaomi/FrameXiaomi1.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeXiaomi .faq2{
+  background: url('../img/Xiaomi/FrameXiaomi2.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeXiaomi .faq3{
+  background: url('../img/Xiaomi/FrameXiaomi3.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeXiaomi .faq4{
+  background: url('../img/Xiaomi/FrameXiaomi4.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.themeXiaomi .faqBox:hover .titleFaqBox{
+  background: linear-gradient(119.43deg, #FF6709 0%, #FD5E1A 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeXiaomi .faqBox:hover .numberFaqBox{color: #FD5E1A;}
+
+.themeXiaomi .modelBox:hover .titleModelBox{
+  background: linear-gradient(119.43deg, #FF6709 0%, #FD5E1A 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeXiaomi .deviceSelected .deviceSelectedTablet:hover .deviceSelectedTablet_img, .themeXiaomi .deviceSelected .deviceSelectedImagesActive .deviceSelectedTablet_img{
+  background: url('../img/Xiaomi/imageTabletXiaomi.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeXiaomi .deviceSelected .deviceSelectedPhone:hover .deviceSelectedPhone_img, .themeXiaomi .deviceSelected .deviceSelectedImagesActive .deviceSelectedPhone_img{
+  background: url('../img/Xiaomi/imagePhoneXiaomi.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeXiaomi .deviceSelected .deviceSelectedLaptop:hover .deviceSelectedLaptop_img, .themeXiaomi .deviceSelected .deviceSelectedImagesActive .deviceSelectedLaptop_img{
+  background: url('../img/Xiaomi/imageLaptopXiaomi.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeXiaomi .deviceSelected > .deviceSelectedImages:hover .titleDevice, .themeXiaomi .deviceSelected .deviceSelectedImagesActive .titleDevice{
+  background: linear-gradient(119.43deg, #FF6709 0%, #FD5E1A 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeXiaomi .priceMainContent > section > .priceBox:hover{
+  border: 2px solid #FD5E1A;
+}
+.themeXiaomi .priceMainContent > section > .priceBox:hover .titlePriceBox{
+  background: linear-gradient(119.43deg, #FF6709 0%, #FD5E1A 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeXiaomi .priceMainContent > section > .priceBox:hover .price{
+  background: linear-gradient(119.43deg, #FF6709 0%, #FD5E1A 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeXiaomi .priceMainContent > section > .priceBox:hover .dedlaine{
+  background: linear-gradient(119.43deg, #FF6709 0%, #FD5E1A 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeXiaomi .infoBox .titleInfoBox > div > span{
+  background: linear-gradient(119.43deg, #FF6709 0%, #FD5E1A 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeXiaomi .infoBox:nth-child(2) .titleInfoBox > span{
+  background: linear-gradient(119.43deg, #FF6709 0%, #FD5E1A 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeXiaomi .icon_infoBox1{
+  background: url('../img/Xiaomi/arrowRightBigXiaomi.png') no-repeat;
+  background-size: cover;
+}
+.themeXiaomi .icon_infoBox2{
+  background: url('../img/Xiaomi/telephone2Xiaomi.png') no-repeat;
+  background-size: cover;
+}
+
+.themeXiaomi .quantityOrder > .level1{
+  background: linear-gradient(119.43deg, #FF6709 0%, #FD5E1A 100%);
+  box-shadow: 0px 0px 40px rgba(254, 100, 15, 0.4);
+}
+.themeXiaomi .quantityOrder > .level1 > .level2 > span{
+  background: linear-gradient(119.43deg, #FF6709 0%, #FD5E1A 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeXiaomi .homeOrderForm > input[name="homeOrderFormSubmit"]{background: linear-gradient(119.43deg, #FF6709 0%, #FD5E1A 100%);}
+.themeXiaomi .trackComment  .comment  .img_user{
+  background: url('../img/Xiaomi/userXiaomi.png') no-repeat;
+  background-size: cover;
+}
+.themeXiaomi .popup .popup_title{
+  background: linear-gradient(119.43deg, #FF6709 0%, #FD5E1A 100%);
+}
+.themeXiaomi .popup .popup_form input[type="submit"]{
+  background: linear-gradient(119.43deg, #FF6709 0%, #FD5E1A 100%);
+}
+.themeXiaomi .popup_success .imgSuccess{
+  background: url('../img/Xiaomi/SuccessXiaomi.png') no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,229 @@
+
+/* Oppo */
+.themeOppo .title_slicer > h1 > span{color: #00A550;}
+.themeOppo .orderSubmit{background: linear-gradient(91.26deg, #00A550 0.62%, #00FF7C 99.49%);}
+.themeOppo .searchModel .searchModelItems .searchModelItem:hover, .themeOppo .searchModelList .searchModelItemsList .searchModelItem:hover{
+  color: #1E1E1E;
+  font-weight: bold;
+  background: linear-gradient(91.26deg, #00A550 0.62%, #00FF7C 99.49%);
+}
+.themeOppo .img_slicer{
+  background: url('../img/Oppo/imageSlicerOppo.png') no-repeat;
+  background-size: contain;
+  background-position: left;
+  width: 500px;
+  height: 500px;
+}
+@media screen and (max-width: 1170px){
+  .themeOppo .img_slicer{
+    top: 20px;
+    right: -20px;
+    width: 480px;
+    height: 480px;
+  }
+}
+@media screen and (max-width: 860px){
+  .themeOppo .img_slicer{
+    top: 30px;
+    right: -10px;
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 690px){
+  .themeOppo .img_slicer{
+    background: url(../img/Oppo/Oppo.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 200px;
+    height: 150px;
+    margin-bottom: -80px;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 376px){
+  .themeOppo .img_slicer{
+    width: 160px;
+    height: 100px;
+  }
+}
+
+
+.themeOppo .menu > ul > li:hover{
+  background: linear-gradient(91.26deg, #00A550 0.62%, #00FF7C 99.49%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeOppo .contact > .img_callback:hover{
+  background: url('../img/Oppo/borderOppo.png') no-repeat;
+  background-size: contain;
+}
+.themeOppo .contact > .img_callback:hover .callback{
+  background: linear-gradient(91.26deg, #00A550 0.62%, #00FF7C 99.49%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeOppo .navBar ul li:hover{
+  background: linear-gradient(91.26deg, #00A550 0.62%, #00FF7C 99.49%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeOppo .navBar ul li:hover .orderNavBar{
+  background: url('../img/Oppo/imageOrderOppo.svg') no-repeat;
+  background-size: contain;
+}
+.themeOppo .navBar ul li:hover .priceNavBar{
+  background: url('../img/Oppo/imagePriceOppo.svg') no-repeat;
+  background-size: contain;
+}
+.themeOppo .navBar ul li:hover .settingNavbar{
+  background: url('../img/Oppo/imageSettingsOppo.svg') no-repeat;
+  background-size: contain;
+}
+@media screen and (max-width: 426px){
+  .themeOppo .navBar  ul  li .orderNavBar{
+    background: url('../img/Oppo/imageOrderOppo.svg') no-repeat;
+    background-size: contain;
+  }
+  .themeOppo .navBar  ul  li .priceNavBar{
+    background: url('../img/Oppo/imagePriceOppo.svg') no-repeat;
+    background-size: contain;
+  }
+  .themeOppo .navBar  ul  li .settingNavbar{
+    background: url('../img/Oppo/imageSettingsOppo.svg') no-repeat;
+    background-size: contain;
+  }
+}
+
+
+
+.themeOppo .faq1{
+  background: url('../img/Oppo/FrameOppo1.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeOppo .faq2{
+  background: url('../img/Oppo/FrameOppo2.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeOppo .faq3{
+  background: url('../img/Oppo/FrameOppo3.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeOppo .faq4{
+  background: url('../img/Oppo/FrameOppo4.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.themeOppo .faqBox:hover .titleFaqBox{
+  background: linear-gradient(91.26deg, #00A550 0.62%, #00FF7C 99.49%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeOppo .faqBox:hover .numberFaqBox{color: #00A550;}
+
+.themeOppo .modelBox:hover .titleModelBox{
+  background: linear-gradient(91.26deg, #00A550 0.62%, #00FF7C 99.49%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeOppo .deviceSelected .deviceSelectedTablet:hover .deviceSelectedTablet_img, .themeOppo .deviceSelected .deviceSelectedImagesActive .deviceSelectedTablet_img{
+  background: url('../img/Oppo/imageTabletOppo.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeOppo .deviceSelected .deviceSelectedPhone:hover .deviceSelectedPhone_img, .themeOppo .deviceSelected .deviceSelectedImagesActive .deviceSelectedPhone_img{
+  background: url('../img/Oppo/imagePhoneOppo.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeOppo .deviceSelected .deviceSelectedLaptop:hover .deviceSelectedLaptop_img, .themeOppo .deviceSelected .deviceSelectedImagesActive .deviceSelectedLaptop_img{
+  background: url('../img/Oppo/imageLaptopOppo.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.themeOppo .deviceSelected > .deviceSelectedImages:hover .titleDevice, .themeOppo .deviceSelected .deviceSelectedImagesActive .titleDevice{
+  background: linear-gradient(91.26deg, #00A550 0.62%, #00FF7C 99.49%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeOppo .priceMainContent > section > .priceBox:hover{
+  border: 2px solid #00A550;
+}
+.themeOppo .priceMainContent > section > .priceBox:hover .titlePriceBox{
+  background: linear-gradient(91.26deg, #00A550 0.62%, #00FF7C 99.49%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeOppo .priceMainContent > section > .priceBox:hover .price{
+  background: linear-gradient(91.26deg, #00A550 0.62%, #00FF7C 99.49%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeOppo .priceMainContent > section > .priceBox:hover .dedlaine{
+  background: linear-gradient(91.26deg, #00A550 0.62%, #00FF7C 99.49%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeOppo .infoBox .titleInfoBox > div > span{
+  background: linear-gradient(91.26deg, #00A550 0.62%, #00FF7C 99.49%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeOppo .infoBox:nth-child(2) .titleInfoBox > span{
+  background: linear-gradient(91.26deg, #00A550 0.62%, #00FF7C 99.49%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeOppo .icon_infoBox1{
+  background: url('../img/Oppo/arrowRightBigOppo.png') no-repeat;
+  background-size: cover;
+}
+.themeOppo .icon_infoBox2{
+  background: url('../img/Oppo/telephone2Oppo.png') no-repeat;
+  background-size: cover;
+}
+
+.themeOppo .quantityOrder > .level1{
+  background: linear-gradient(91.26deg, #00A550 0.62%, #00FF7C 99.49%);
+  box-shadow: 0px 0px 40px rgba(0, 255, 124, 0.4);
+}
+.themeOppo .quantityOrder > .level1 > .level2 > span{
+  background: linear-gradient(91.26deg, #00A550 0.62%, #00FF7C 99.49%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.themeOppo .homeOrderForm > input[name="homeOrderFormSubmit"]{background: linear-gradient(91.26deg, #00A550 0.62%, #00FF7C 99.49%);}
+.themeOppo .trackComment  .comment  .img_user{
+  background: url('../img/Oppo/userOppo.png') no-repeat;
+  background-size: cover;
+}
+.themeOppo .popup .popup_title{
+  background: linear-gradient(91.26deg, #00A550 0.62%, #00FF7C 99.49%);
+}
+.themeOppo .popup .popup_form input[type="submit"]{
+  background: linear-gradient(91.26deg, #00A550 0.62%, #00FF7C 99.49%);
+}
+.themeOppo .popup_success .imgSuccess{
+  background: url('../img/Oppo/SuccessOppo.png') no-repeat;
+  background-size: cover;
+}
